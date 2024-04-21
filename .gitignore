@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development environment
+.env
+
+# Django development artifacts
+*.log
+*.pot
+*.pyc
+app/db.sqlite3
+db.sqlite3-journal
+media/
+
+# Static files (usually collected by Django's collectstatic)
+staticfiles/
+
+# Backup files
+*.bak
+*.swp
+*~
+
+# Ignore pipenv virtual environment
+env/
+
+# Ignore content directory
+content/
+
+# Ignore macOS system files
+.DS_Store
