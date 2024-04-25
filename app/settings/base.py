@@ -38,12 +38,12 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',
-    'sorl.thumbnail',
+    # 'sorl.thumbnail',
     # 'core',
     'user_api',
     'post_api',
 
-    "graphene_django",
+    # "graphene_django",
 ]
 
 MIDDLEWARE = [
